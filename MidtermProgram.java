@@ -25,8 +25,9 @@ public class MidtermProgram {
     
     // For loop
      int t;
+     String a = "For loop";
  
-    for (t = 1; t <= 3; t++) {
+    for (t = 1; t <= a.length(); t++) {
       System.out.println(t);
     }
   
@@ -67,7 +68,7 @@ public class MidtermProgram {
     }
     System.out.println( "New topping: " + pizzaToppings[0] );
     
-    // Case
+    // Switch
     
     int user = 18;
     
@@ -83,6 +84,7 @@ public class MidtermProgram {
          break;
       default:
          System.out.println( "You're not 18, 19 or 20");
+        
     }
   }
 
